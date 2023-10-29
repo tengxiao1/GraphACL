@@ -1,6 +1,6 @@
 # Official implementation of GraphACL
 
-**This repository is an official PyTorch implementation of the paper**  ["GraphACL: Graph Asymmetric Contrastive Learning without Augmentations"]() (NeurIPS 2023)
+**This repository is an official PyTorch implementation of the paper**  ["Simple and Asymmetric Graph Contrastive Learning without Augmentations"]() (NeurIPS 2023)
 
 
 ##  Requirements
