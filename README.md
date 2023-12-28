@@ -38,7 +38,7 @@ If you find this repo to be useful, please cite our paper:
 
 ```bibtex
 @inproceedings{
-  Xiao2023,
+  Xiao2023GraphACL,
   title={Simple and Asymmetric Graph Contrastive Learning without Augmentations},
   author={Xiao, Teng; Zhu, Huaisheng; Chen, Zhengyu; Wang, Suhang},
   booktitle={Thirty-seventh Conference on Neural Information Processing Systems ({NeurIPS})},
