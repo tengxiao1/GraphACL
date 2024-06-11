@@ -7,11 +7,6 @@
 
 Graph Contrastive Learning (GCL) has shown superior performance in representation learning in graph-structured data. Despite their success, most existing GCL methods rely on prefabricated graph augmentation and homophily assumptions. Thus, they fail to generalize well to heterophilic graphs where connected nodes may have different class labels and dissimilar features. In this paper, we study the problem of conducting contrastive learning on homophilic and heterophilic graphs. We find that we can achieve promising performance simply by considering an asymmetric view of the neighboring nodes. The resulting simple algorithm, Asymmetric Contrastive Learning for Graphs (GraphACL), is easy to implement and does not rely on graph augmentations and homophily assumptions. We provide theoretical and empirical evidence that GraphACL can capture one-hop local neighborhood information and two-hop monophily similarity, which are both important for modeling heterophilic graphs. Experimental results show that the simple GraphACL significantly outperforms state-of-the-art graph contrastive learning and self-supervised learning methods on homophilic and heterophilic graphs.
 
-<img width="1080" alt="image" src="https://github.com/tengxiao1/GraphACL/assets/53974866/b477c714-3aa3-449d-9d79-e76838aea243">
-
-
-<img width="1469" alt="image" src="https://github.com/tengxiao1/GraphACL/assets/53974866/d1e4d8bb-a63a-43e3-a772-27664eaf257b">
-
 ##  Requirements
 
 - CUDA Version: 12.2  
@@ -34,7 +29,9 @@ sh homo/run.sh
 ```sh
 sh hete/run.sh
 ```
+##  Questions
 
+If you have any questions related to the code or the paper, feel free to email us (tengxiao01@gmail.com). Please try to specify the problem with details so we can help you better and quicker.
 
 ##  Reference
 
